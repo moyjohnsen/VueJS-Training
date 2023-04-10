@@ -1,0 +1,30 @@
+<script src="../global/vue.js"></script>
+
+<link rel="stylesheet" href="../global/main.css"></link>
+<div id="maincontainer">
+	<p>{{firstdata}}</p>
+	<p v-bind:class="{noshow: seconddata}">You should see nothing</p>
+	<div v-if="thirddata">
+		<p>This is a piece of data</p>
+		<p>I want to eat sushi</p>
+	</div>
+	<div class="table-responsive">
+		<table class="table table-striped font12">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Age</th>
+				</tr>
+			</thead><tbody>
+				<tr v-for="den in alist">
+					<td>{{den.firstname}}</td>
+					<td>{{den.lastname}}</td>
+					<td>{{den.age}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<button class="actbutton" v-on:click="clickme('parasite')">Click Me</button>
+</div>
+<script src="main.js"></script>
