@@ -30,7 +30,7 @@ function startingdata(selfish){
 			"firstname": "Richard",
 			"lastname": "Pryor",
 			"age": 34
-		},
+		}
 		
 	]
 	//ASSIGNMENT - MAKE THE BACKGROUND OF THE PAGE PINK//
