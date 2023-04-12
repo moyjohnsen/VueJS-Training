@@ -1,0 +1,12 @@
+.box {
+    background-color: blueviolet;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+.box2 {
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
