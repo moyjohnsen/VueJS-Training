@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkslateblue;
+    padding: 0;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.main-container {
+    margin: 30px auto;
+    max-width: 1920px;
+}
+
+.cal-container {
+    background: white;
+    padding: 15px;
+    max-width: 380px;
+    margin: 0 auto;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 50px rgb(35, 30, 69);
+}
+
+.cal-container h2 {
+    color: purple;
+}
+
+.button-container button {
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: white;
+    background-color: rgb(72, 165, 196);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.button-container button:hover {
+    background-color: rgb(48, 194, 243);
+    color: black;
+}
+
+.cal-table {
+    width: 100%;
+}
+
+.cal-table td, .cal-table th {
+    padding: 5px;
+    text-align: center;
+    vertical-align: center;
+}
+
+td, th {
+    height: 40px;
+}
+
+.cal-number.current {
+    font-weight: bold;
+    background-color: rgb(72, 165, 196) !important;
+    border-radius: 50px;
+    color: white;
+}
+
+#thead-month th:nth-child(1){
+    color: red;
+}
+
+.cal-number:hover {
+    background-color: rgb(234, 237, 237);;
+}
+
+.cal-number:nth-child(1) {
+    color: red;
+    font-weight: bold;
+}
+
+.cal-number:nth-child(7) {
+    font-weight: bold;
+}
+
+#MY {
+    text-align: center;
+    margin-top: 0;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.cal-footer {
+    padding: 10px;
+    margin-top: 1em;
+}
+
+.cal-footer select {
+    cursor: pointer;
+    padding: 3px 3px;
+    border: 1px solid purple;
+    color: purple;
+    border-radius: 5px;
+    display: inline-block;
+}
